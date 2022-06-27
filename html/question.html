@@ -16,7 +16,6 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../assets/css/question.css'>
       
 
-
 </head>
 <body>
   <header >
@@ -87,19 +86,31 @@
  <div class="container">
         <div class="row">
 
-          <div class="col-lg-4">
-           <a href="#">  <button id="myBtn" class="btn btn-primary trigger"><span>Help</span></button> </a>
-          </div>
-        
+                <div class="col-lg-4">
+                 <a href="#">  <button id="myBtn" class="btn btn-primary trigger"><span>Help</span></button> </a>
+                </div>
+              
+                <div class="col-lg-4">
 
+                  <div class="container "> 
+                    <div class="row">
 
-          <div class="col-lg-4">
-           <a href="#"> <button class="btn btn-primary "><span>Timer</span></button> </a>
-          </div>
+                      <div class="col-lg-6 timerm">
+                         <a href="#">  <button id="myBtn" class="btn btn-primary trigger"><span>00:00</span></button> </a>
+                      </div>
 
-          <div class="col-lg-4">
-           <a href="#"> <button class="btn btn-outline-primary"><span>Next team</span></button> </a>
-          </div>
+                      <div class="col-lg-6 timers">
+                        <a href="#">  <button id="myBtn" class="btn btn-primary trigger"><span>00:00</span></button> </a>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-4">
+                 <a href="#"> <button class="btn btn-outline-primary"><span>Next team</span></button> </a>
+                </div>
 
  </div>
 </div>
@@ -149,7 +160,12 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}
+}// end model
+
+
+</script>
+
+
 </script>
 
 
